@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- METADATA GOES HERE -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fullpage Plugin Demo</title>
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fullpage.js@3.0.9/dist/fullpage.css" />
+    <script src="vendors/easings.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullpage.js@3.0.9/dist/fullpage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullpage.js@3.0.9/vendors/easings.min.js"></script>
+    <script type="text/javascript" src="fullpage.js"></script>
+
+
+
+<body>
+
+    <div id="fullpage">
+        <div class="section active" id="section0">
+            <h1>fullPage.js</h1>
+        </div>
+        <div class="section" id="section1">
+            <div class="slide ">
+                <h1>Simple Demo</h1>
+            </div>
+            <div class="slide active">
+                <h1>Only text</h1>
+            </div>
+            <div class="slide">
+                <h1>And text</h1>
+            </div>
+            <div class="slide">
+                <h1>And more text</h1>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <h1>No wraps, no extra markup</h1>
+        </div>
+        <div class="section" id="section3">
+            <h1>Just the simplest demo ever</h1>
+        </div>
+    </div>
+
+
+    <script>new fullpage('#fullpage', {
+            //options here
+            autoScrolling: true,
+            scrollHorizontally: true
+        });
+
+    </script>
+
+</body>
+
+
+</head>
