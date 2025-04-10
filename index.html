@@ -3,58 +3,90 @@
 
 <head>
 
-    <!-- METADATA GOES HERE -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fullpage Plugin Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lielos Photo Album 2025</title>
 
+    <!-----fullPage.js CSS ----->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullpage.js/dist/fullpage.min.css">
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fullpage.js@3.0.9/dist/fullpage.css" />
-    <script src="vendors/easings.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/fullpage.js@3.0.9/dist/fullpage.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/fullpage.js@3.0.9/vendors/easings.min.js"></script>
-    <script type="text/javascript" src="fullpage.js"></script>
+    <!------Bootstrap CSS --->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
+    <!------Custom CSS ---->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!---jQuery ---->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!---fullPage.js ---->
+    <script src="https://cdn.jsdelivr.net/npm/fullpage.js/dist/fullpage.min.js"></script>
+
+    <!---Bootsrap JS ---->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
 
 
 <body>
 
+    <!----Main Container-->
     <div id="fullpage">
-        <div class="section active" id="section0">
-            <h1>fullPage.js</h1>
-        </div>
-        <div class="section" id="section1">
-            <div class="slide ">
-                <h1>Simple Demo</h1>
-            </div>
-            <div class="slide active">
-                <h1>Only text</h1>
-            </div>
-            <div class="slide">
-                <h1>And text</h1>
-            </div>
-            <div class="slide">
-                <h1>And more text</h1>
-            </div>
-        </div>
-        <div class="section" id="section2">
-            <h1>No wraps, no extra markup</h1>
-        </div>
-        <div class="section" id="section3">
-            <h1>Just the simplest demo ever</h1>
-        </div>
-    </div>
 
+        <!--My FurBabies-->
+        <div class="section" id="furb">
+            <div class="slider-title">My FurBabies</div>
+                <div class="slide"><img src="images/FURB 1.JPG" class="img-fluid" alt="FURB 1"></div>
+                <div class="slide"><img src="images/FURB 2.jpg" class="img-fluid" alt="FURB 2"></div>
+                <div class="slide"><img src="images/FURB 3.jpg" class="img-fluid" alt="FURB 3"></div>
+                <div class="slide"><img src="images/FURB 4.JPG" class="img-fluid" alt="FURB 1"></div>
+                <div class="slide"><img src="images/FURB 5.JPG" class="img-fluid" alt="FURB 2"></div>
+                <div class="slide"><img src="images/FURB 6.JPG" class="img-fluid" alt="FURB 3"></div>
+        </div>
 
-    <script>new fullpage('#fullpage', {
-            //options here
-            autoScrolling: true,
-            scrollHorizontally: true
-        });
+        <!--Sister Sister-->
+        <div class="section" id="sis">
+            <div class="slider-title">Sister Sister</div>
+                <div class="slide"><img src="images/SIS 1.jpg" class="img-fluid" alt="SIS 1"></div>
+                <div class="slide"><img src="images/SIS 2.JPG" class="img-fluid" alt="SIS 2"></div>
+                <div class="slide"><img src="images/SIS 3.JPG" class="img-fluid" alt="SIS 3"></div>
+                <div class="slide"><img src="images/SIS 4.JPG" class="img-fluid" alt="SIS 4"></div>
+        </div>
 
-    </script>
+        <!---About the JS plugin --->
+        <div class="section active" id="introduction">
+            <div class="container">
+                <div class="row">
+                    <!--Section 1 -->
+                    <div class="col-6">
+                        <h2>About the JS Plugin</h2>
+                        <p> Placeholder Text. Come back and put some interesting text here. Come back and finish this
+                            part later.
+                            Add some extra words and make it sound nice. </p>
+                    </div>
+                    <!--Section 2 -->
+                    <div class="col-6">
+                        <h2>Extra External Opportunities</h2>
+                        <p> Placeholder Text. Come back and put some interesting text here. Come back and finish this
+                            part later.
+                            Add some extra words and make it sound nice. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <!--Group Family Picutres-->
+        <div class="section" id="fam">
+            <div class="slider-title">Family</div>
+                <div class="slide"><img src="images/FAM 1.JPEG" class="img-fluid" alt="FAM 1"></div>
+                <div class="slide"><img src="images/FAM 2.jpg" class="img-fluid" alt="FAM 2"></div>
+                <div class="slide"><img src="images/FAM 3.JPG" class="img-fluid" alt="FAM 3"></div>
+                <div class="slide"><img src="images/FAM 4.JPG" class="img-fluid" alt="FAM 4"></div>
+                <div class="slide"><img src="images/FAM 5.JPEG" class="img-fluid" alt="FAM 5"></div>
+        </div>
+
+            <!---Custom JS -->
+    <script src="js/main.js"></script>
 </body>
 
-
-</head>
+</html>
