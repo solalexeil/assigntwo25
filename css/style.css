@@ -24,7 +24,7 @@ html, body {
   }
 
 #introduction {
-  background-color: lightblue;
+  background-color:  #7a9c69;
   color: rgb(66, 66, 66);
   padding: 30px;
   height: 60%;
@@ -32,10 +32,12 @@ html, body {
 
 #introduction h2 {
   margin-bottom: 15px;
+  color: black;
 }
 
 #introduction p {
   line-height: 1.6;
+  color: black;
 }
 
 .slider-title {
